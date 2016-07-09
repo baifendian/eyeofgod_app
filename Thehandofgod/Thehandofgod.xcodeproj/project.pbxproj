@@ -1,0 +1,712 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF3B8B0A1D30B2EA0027CDF7 /* MQQAssist_DefaultHeadshot@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FF3B8B061D30B2EA0027CDF7 /* MQQAssist_DefaultHeadshot@2x.png */; };
+		FF3B8B0B1D30B2EA0027CDF7 /* MQQAssist_Arrow_Black@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FF3B8B071D30B2EA0027CDF7 /* MQQAssist_Arrow_Black@2x.png */; };
+		FF3B8B0C1D30B2EA0027CDF7 /* MQQAssist_DefaultHeadshot@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FF3B8B081D30B2EA0027CDF7 /* MQQAssist_DefaultHeadshot@3x.png */; };
+		FF3B8B0D1D30B2EA0027CDF7 /* MQQAssist_Arrow_Black@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FF3B8B091D30B2EA0027CDF7 /* MQQAssist_Arrow_Black@3x.png */; };
+		FF3B8B101D30B80E0027CDF7 /* pub04.png in Resources */ = {isa = PBXBuildFile; fileRef = FF3B8B0E1D30B80E0027CDF7 /* pub04.png */; };
+		FF4AADDE1D2E50DA00C63C8C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4AADDD1D2E50DA00C63C8C /* main.m */; };
+		FF4AADE11D2E50DA00C63C8C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4AADE01D2E50DA00C63C8C /* AppDelegate.m */; };
+		FF4AADE41D2E50DA00C63C8C /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4AADE31D2E50DA00C63C8C /* BaseViewController.m */; };
+		FF4AADE71D2E50DA00C63C8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF4AADE51D2E50DA00C63C8C /* Main.storyboard */; };
+		FF4AADE91D2E50DA00C63C8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF4AADE81D2E50DA00C63C8C /* Assets.xcassets */; };
+		FF4AADEC1D2E50DA00C63C8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF4AADEA1D2E50DA00C63C8C /* LaunchScreen.storyboard */; };
+		FF4AADF71D2E50DA00C63C8C /* ThehandofgodTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4AADF61D2E50DA00C63C8C /* ThehandofgodTests.m */; };
+		FF4AAE021D2E50DA00C63C8C /* ThehandofgodUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4AAE011D2E50DA00C63C8C /* ThehandofgodUITests.m */; };
+		FF4AAE151D2E580600C63C8C /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4AAE141D2E580600C63C8C /* MainViewController.m */; };
+		FF4AAE171D2E602B00C63C8C /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF4AAE161D2E602B00C63C8C /* JavaScriptCore.framework */; };
+		FF4AAE191D2E60E100C63C8C /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF4AAE181D2E60E100C63C8C /* AdSupport.framework */; };
+		FF4AAE1C1D2F8FE900C63C8C /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4AAE1B1D2F8FE900C63C8C /* SettingViewController.m */; };
+		FF4AAE1F1D2F900A00C63C8C /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4AAE1E1D2F900A00C63C8C /* DetailViewController.m */; };
+		FF4AAE251D2F92BE00C63C8C /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF4AAE241D2F92BE00C63C8C /* CFNetwork.framework */; };
+		FF4AAE271D2F92C900C63C8C /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF4AAE261D2F92C900C63C8C /* CoreFoundation.framework */; };
+		FF4AAE291D2F92D200C63C8C /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF4AAE281D2F92D200C63C8C /* CoreTelephony.framework */; };
+		FF4AAE2B1D2F92DA00C63C8C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF4AAE2A1D2F92DA00C63C8C /* SystemConfiguration.framework */; };
+		FF4AAE2D1D2F92E300C63C8C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF4AAE2C1D2F92E300C63C8C /* CoreGraphics.framework */; };
+		FF4AAE2F1D2F92EC00C63C8C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF4AAE2E1D2F92EC00C63C8C /* Foundation.framework */; };
+		FF4AAE311D2F92F300C63C8C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF4AAE301D2F92F300C63C8C /* UIKit.framework */; };
+		FF4AAE331D2F92FD00C63C8C /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF4AAE321D2F92FD00C63C8C /* Security.framework */; };
+		FF4AAE371D2F97F900C63C8C /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FF4AAE361D2F97F900C63C8C /* libz.tbd */; };
+		FF74C9131D310CED00AF7F88 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FF74C9121D310CED00AF7F88 /* libc++.tbd */; };
+		FFAC4B6E1D30E41600C7A1A0 /* WKMessageProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = FFAC4B691D30E41600C7A1A0 /* WKMessageProgressHUD.m */; };
+		FFAC4B6F1D30E41600C7A1A0 /* WKProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = FFAC4B6B1D30E41600C7A1A0 /* WKProgressHUD.m */; };
+		FFAC4B701D30E41600C7A1A0 /* WKWaitingProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = FFAC4B6D1D30E41600C7A1A0 /* WKWaitingProgressHUD.m */; };
+		FFAC4B7A1D31083300C7A1A0 /* libGeTuiSdk-1.4.3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FFAC4B791D31083300C7A1A0 /* libGeTuiSdk-1.4.3.a */; };
+		FFAC4B7C1D31084500C7A1A0 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FFAC4B7B1D31084500C7A1A0 /* libsqlite3.tbd */; };
+		FFBE0D821D314E7C00F06303 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFBE0D811D314E7C00F06303 /* CoreBluetooth.framework */; };
+		FFBE0D841D314E8700F06303 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFBE0D831D314E8600F06303 /* CoreLocation.framework */; };
+		FFBE0D861D314E9200F06303 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFBE0D851D314E9200F06303 /* AVFoundation.framework */; };
+		FFBF52231D3167B500CC9488 /* BFDMarsURLConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = FFBF52221D3167B500CC9488 /* BFDMarsURLConnection.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF4AADF31D2E50DA00C63C8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF4AADD11D2E50DA00C63C8C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF4AADD81D2E50DA00C63C8C;
+			remoteInfo = Thehandofgod;
+		};
+		FF4AADFE1D2E50DA00C63C8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF4AADD11D2E50DA00C63C8C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF4AADD81D2E50DA00C63C8C;
+			remoteInfo = Thehandofgod;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FF3B8B061D30B2EA0027CDF7 /* MQQAssist_DefaultHeadshot@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MQQAssist_DefaultHeadshot@2x.png"; sourceTree = "<group>"; };
+		FF3B8B071D30B2EA0027CDF7 /* MQQAssist_Arrow_Black@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MQQAssist_Arrow_Black@2x.png"; sourceTree = "<group>"; };
+		FF3B8B081D30B2EA0027CDF7 /* MQQAssist_DefaultHeadshot@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MQQAssist_DefaultHeadshot@3x.png"; sourceTree = "<group>"; };
+		FF3B8B091D30B2EA0027CDF7 /* MQQAssist_Arrow_Black@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MQQAssist_Arrow_Black@3x.png"; sourceTree = "<group>"; };
+		FF3B8B0E1D30B80E0027CDF7 /* pub04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pub04.png; sourceTree = "<group>"; };
+		FF4AADD91D2E50DA00C63C8C /* Thehandofgod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Thehandofgod.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF4AADDD1D2E50DA00C63C8C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FF4AADDF1D2E50DA00C63C8C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FF4AADE01D2E50DA00C63C8C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FF4AADE21D2E50DA00C63C8C /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		FF4AADE31D2E50DA00C63C8C /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		FF4AADE61D2E50DA00C63C8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FF4AADE81D2E50DA00C63C8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF4AADEB1D2E50DA00C63C8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FF4AADED1D2E50DA00C63C8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF4AADF21D2E50DA00C63C8C /* ThehandofgodTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThehandofgodTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF4AADF61D2E50DA00C63C8C /* ThehandofgodTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThehandofgodTests.m; sourceTree = "<group>"; };
+		FF4AADF81D2E50DA00C63C8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF4AADFD1D2E50DA00C63C8C /* ThehandofgodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThehandofgodUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF4AAE011D2E50DA00C63C8C /* ThehandofgodUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThehandofgodUITests.m; sourceTree = "<group>"; };
+		FF4AAE031D2E50DA00C63C8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF4AAE131D2E580600C63C8C /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = controllers/MainViewController.h; sourceTree = "<group>"; };
+		FF4AAE141D2E580600C63C8C /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = controllers/MainViewController.m; sourceTree = "<group>"; };
+		FF4AAE161D2E602B00C63C8C /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		FF4AAE181D2E60E100C63C8C /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		FF4AAE1A1D2F8FE900C63C8C /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SettingViewController.h; path = controllers/SettingViewController.h; sourceTree = "<group>"; };
+		FF4AAE1B1D2F8FE900C63C8C /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SettingViewController.m; path = controllers/SettingViewController.m; sourceTree = "<group>"; };
+		FF4AAE1D1D2F900A00C63C8C /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DetailViewController.h; path = controllers/DetailViewController.h; sourceTree = "<group>"; };
+		FF4AAE1E1D2F900A00C63C8C /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DetailViewController.m; path = controllers/DetailViewController.m; sourceTree = "<group>"; };
+		FF4AAE241D2F92BE00C63C8C /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		FF4AAE261D2F92C900C63C8C /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		FF4AAE281D2F92D200C63C8C /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		FF4AAE2A1D2F92DA00C63C8C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		FF4AAE2C1D2F92E300C63C8C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FF4AAE2E1D2F92EC00C63C8C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FF4AAE301D2F92F300C63C8C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FF4AAE321D2F92FD00C63C8C /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		FF4AAE361D2F97F900C63C8C /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		FF74C9121D310CED00AF7F88 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		FFAC4B681D30E41600C7A1A0 /* WKMessageProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKMessageProgressHUD.h; sourceTree = "<group>"; };
+		FFAC4B691D30E41600C7A1A0 /* WKMessageProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKMessageProgressHUD.m; sourceTree = "<group>"; };
+		FFAC4B6A1D30E41600C7A1A0 /* WKProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKProgressHUD.h; sourceTree = "<group>"; };
+		FFAC4B6B1D30E41600C7A1A0 /* WKProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKProgressHUD.m; sourceTree = "<group>"; };
+		FFAC4B6C1D30E41600C7A1A0 /* WKWaitingProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKWaitingProgressHUD.h; sourceTree = "<group>"; };
+		FFAC4B6D1D30E41600C7A1A0 /* WKWaitingProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKWaitingProgressHUD.m; sourceTree = "<group>"; };
+		FFAC4B781D31083300C7A1A0 /* GeTuiSdk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeTuiSdk.h; sourceTree = "<group>"; };
+		FFAC4B791D31083300C7A1A0 /* libGeTuiSdk-1.4.3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libGeTuiSdk-1.4.3.a"; sourceTree = "<group>"; };
+		FFAC4B7B1D31084500C7A1A0 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		FFBE0D811D314E7C00F06303 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		FFBE0D831D314E8600F06303 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		FFBE0D851D314E9200F06303 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		FFBF52211D3167B500CC9488 /* BFDMarsURLConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFDMarsURLConnection.h; sourceTree = "<group>"; };
+		FFBF52221D3167B500CC9488 /* BFDMarsURLConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFDMarsURLConnection.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF4AADD61D2E50DA00C63C8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFBE0D861D314E9200F06303 /* AVFoundation.framework in Frameworks */,
+				FFBE0D841D314E8700F06303 /* CoreLocation.framework in Frameworks */,
+				FFBE0D821D314E7C00F06303 /* CoreBluetooth.framework in Frameworks */,
+				FF74C9131D310CED00AF7F88 /* libc++.tbd in Frameworks */,
+				FFAC4B7C1D31084500C7A1A0 /* libsqlite3.tbd in Frameworks */,
+				FF4AAE371D2F97F900C63C8C /* libz.tbd in Frameworks */,
+				FF4AAE331D2F92FD00C63C8C /* Security.framework in Frameworks */,
+				FF4AAE311D2F92F300C63C8C /* UIKit.framework in Frameworks */,
+				FF4AAE2F1D2F92EC00C63C8C /* Foundation.framework in Frameworks */,
+				FF4AAE2D1D2F92E300C63C8C /* CoreGraphics.framework in Frameworks */,
+				FF4AAE2B1D2F92DA00C63C8C /* SystemConfiguration.framework in Frameworks */,
+				FF4AAE291D2F92D200C63C8C /* CoreTelephony.framework in Frameworks */,
+				FF4AAE271D2F92C900C63C8C /* CoreFoundation.framework in Frameworks */,
+				FF4AAE251D2F92BE00C63C8C /* CFNetwork.framework in Frameworks */,
+				FF4AAE191D2E60E100C63C8C /* AdSupport.framework in Frameworks */,
+				FFAC4B7A1D31083300C7A1A0 /* libGeTuiSdk-1.4.3.a in Frameworks */,
+				FF4AAE171D2E602B00C63C8C /* JavaScriptCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF4AADEF1D2E50DA00C63C8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF4AADFA1D2E50DA00C63C8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF4AADD01D2E50DA00C63C8C = {
+			isa = PBXGroup;
+			children = (
+				FF3B8B0E1D30B80E0027CDF7 /* pub04.png */,
+				FF3B8B061D30B2EA0027CDF7 /* MQQAssist_DefaultHeadshot@2x.png */,
+				FF3B8B071D30B2EA0027CDF7 /* MQQAssist_Arrow_Black@2x.png */,
+				FF3B8B081D30B2EA0027CDF7 /* MQQAssist_DefaultHeadshot@3x.png */,
+				FF3B8B091D30B2EA0027CDF7 /* MQQAssist_Arrow_Black@3x.png */,
+				FF4AAE361D2F97F900C63C8C /* libz.tbd */,
+				FF4AADDB1D2E50DA00C63C8C /* Thehandofgod */,
+				FF4AADF51D2E50DA00C63C8C /* ThehandofgodTests */,
+				FF4AAE001D2E50DA00C63C8C /* ThehandofgodUITests */,
+				FF4AADDA1D2E50DA00C63C8C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF4AADDA1D2E50DA00C63C8C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF4AADD91D2E50DA00C63C8C /* Thehandofgod.app */,
+				FF4AADF21D2E50DA00C63C8C /* ThehandofgodTests.xctest */,
+				FF4AADFD1D2E50DA00C63C8C /* ThehandofgodUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF4AADDB1D2E50DA00C63C8C /* Thehandofgod */ = {
+			isa = PBXGroup;
+			children = (
+				FFBF52201D3167B500CC9488 /* net */,
+				FFAC4B771D31083300C7A1A0 /* GtSdkLib */,
+				FFAC4B671D30E41600C7A1A0 /* WKProgressHUD */,
+				FF4AAE0F1D2E55EA00C63C8C /* controller */,
+				FF4AADDF1D2E50DA00C63C8C /* AppDelegate.h */,
+				FF4AADE01D2E50DA00C63C8C /* AppDelegate.m */,
+				FF4AADE51D2E50DA00C63C8C /* Main.storyboard */,
+				FF4AADE81D2E50DA00C63C8C /* Assets.xcassets */,
+				FF4AADEA1D2E50DA00C63C8C /* LaunchScreen.storyboard */,
+				FF4AADED1D2E50DA00C63C8C /* Info.plist */,
+				FF4AADDC1D2E50DA00C63C8C /* Supporting Files */,
+			);
+			path = Thehandofgod;
+			sourceTree = "<group>";
+		};
+		FF4AADDC1D2E50DA00C63C8C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FFBE0D851D314E9200F06303 /* AVFoundation.framework */,
+				FFBE0D831D314E8600F06303 /* CoreLocation.framework */,
+				FFBE0D811D314E7C00F06303 /* CoreBluetooth.framework */,
+				FF74C9121D310CED00AF7F88 /* libc++.tbd */,
+				FFAC4B7B1D31084500C7A1A0 /* libsqlite3.tbd */,
+				FF4AAE321D2F92FD00C63C8C /* Security.framework */,
+				FF4AAE301D2F92F300C63C8C /* UIKit.framework */,
+				FF4AAE2E1D2F92EC00C63C8C /* Foundation.framework */,
+				FF4AAE2C1D2F92E300C63C8C /* CoreGraphics.framework */,
+				FF4AAE2A1D2F92DA00C63C8C /* SystemConfiguration.framework */,
+				FF4AAE281D2F92D200C63C8C /* CoreTelephony.framework */,
+				FF4AAE261D2F92C900C63C8C /* CoreFoundation.framework */,
+				FF4AAE241D2F92BE00C63C8C /* CFNetwork.framework */,
+				FF4AAE181D2E60E100C63C8C /* AdSupport.framework */,
+				FF4AAE161D2E602B00C63C8C /* JavaScriptCore.framework */,
+				FF4AADDD1D2E50DA00C63C8C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FF4AADF51D2E50DA00C63C8C /* ThehandofgodTests */ = {
+			isa = PBXGroup;
+			children = (
+				FF4AADF61D2E50DA00C63C8C /* ThehandofgodTests.m */,
+				FF4AADF81D2E50DA00C63C8C /* Info.plist */,
+			);
+			path = ThehandofgodTests;
+			sourceTree = "<group>";
+		};
+		FF4AAE001D2E50DA00C63C8C /* ThehandofgodUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FF4AAE011D2E50DA00C63C8C /* ThehandofgodUITests.m */,
+				FF4AAE031D2E50DA00C63C8C /* Info.plist */,
+			);
+			path = ThehandofgodUITests;
+			sourceTree = "<group>";
+		};
+		FF4AAE0F1D2E55EA00C63C8C /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				FF4AADE21D2E50DA00C63C8C /* BaseViewController.h */,
+				FF4AADE31D2E50DA00C63C8C /* BaseViewController.m */,
+				FF4AAE131D2E580600C63C8C /* MainViewController.h */,
+				FF4AAE141D2E580600C63C8C /* MainViewController.m */,
+				FF4AAE1A1D2F8FE900C63C8C /* SettingViewController.h */,
+				FF4AAE1B1D2F8FE900C63C8C /* SettingViewController.m */,
+				FF4AAE1D1D2F900A00C63C8C /* DetailViewController.h */,
+				FF4AAE1E1D2F900A00C63C8C /* DetailViewController.m */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		FFAC4B671D30E41600C7A1A0 /* WKProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				FFAC4B681D30E41600C7A1A0 /* WKMessageProgressHUD.h */,
+				FFAC4B691D30E41600C7A1A0 /* WKMessageProgressHUD.m */,
+				FFAC4B6A1D30E41600C7A1A0 /* WKProgressHUD.h */,
+				FFAC4B6B1D30E41600C7A1A0 /* WKProgressHUD.m */,
+				FFAC4B6C1D30E41600C7A1A0 /* WKWaitingProgressHUD.h */,
+				FFAC4B6D1D30E41600C7A1A0 /* WKWaitingProgressHUD.m */,
+			);
+			path = WKProgressHUD;
+			sourceTree = "<group>";
+		};
+		FFAC4B771D31083300C7A1A0 /* GtSdkLib */ = {
+			isa = PBXGroup;
+			children = (
+				FFAC4B781D31083300C7A1A0 /* GeTuiSdk.h */,
+				FFAC4B791D31083300C7A1A0 /* libGeTuiSdk-1.4.3.a */,
+			);
+			path = GtSdkLib;
+			sourceTree = "<group>";
+		};
+		FFBF52201D3167B500CC9488 /* net */ = {
+			isa = PBXGroup;
+			children = (
+				FFBF52211D3167B500CC9488 /* BFDMarsURLConnection.h */,
+				FFBF52221D3167B500CC9488 /* BFDMarsURLConnection.m */,
+			);
+			path = net;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF4AADD81D2E50DA00C63C8C /* Thehandofgod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF4AAE061D2E50DA00C63C8C /* Build configuration list for PBXNativeTarget "Thehandofgod" */;
+			buildPhases = (
+				FF4AADD51D2E50DA00C63C8C /* Sources */,
+				FF4AADD61D2E50DA00C63C8C /* Frameworks */,
+				FF4AADD71D2E50DA00C63C8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Thehandofgod;
+			productName = Thehandofgod;
+			productReference = FF4AADD91D2E50DA00C63C8C /* Thehandofgod.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FF4AADF11D2E50DA00C63C8C /* ThehandofgodTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF4AAE091D2E50DA00C63C8C /* Build configuration list for PBXNativeTarget "ThehandofgodTests" */;
+			buildPhases = (
+				FF4AADEE1D2E50DA00C63C8C /* Sources */,
+				FF4AADEF1D2E50DA00C63C8C /* Frameworks */,
+				FF4AADF01D2E50DA00C63C8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF4AADF41D2E50DA00C63C8C /* PBXTargetDependency */,
+			);
+			name = ThehandofgodTests;
+			productName = ThehandofgodTests;
+			productReference = FF4AADF21D2E50DA00C63C8C /* ThehandofgodTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FF4AADFC1D2E50DA00C63C8C /* ThehandofgodUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF4AAE0C1D2E50DA00C63C8C /* Build configuration list for PBXNativeTarget "ThehandofgodUITests" */;
+			buildPhases = (
+				FF4AADF91D2E50DA00C63C8C /* Sources */,
+				FF4AADFA1D2E50DA00C63C8C /* Frameworks */,
+				FF4AADFB1D2E50DA00C63C8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF4AADFF1D2E50DA00C63C8C /* PBXTargetDependency */,
+			);
+			name = ThehandofgodUITests;
+			productName = ThehandofgodUITests;
+			productReference = FF4AADFD1D2E50DA00C63C8C /* ThehandofgodUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF4AADD11D2E50DA00C63C8C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = linde;
+				TargetAttributes = {
+					FF4AADD81D2E50DA00C63C8C = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 6YH2M7VN9C;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					FF4AADF11D2E50DA00C63C8C = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = FF4AADD81D2E50DA00C63C8C;
+					};
+					FF4AADFC1D2E50DA00C63C8C = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = FF4AADD81D2E50DA00C63C8C;
+					};
+				};
+			};
+			buildConfigurationList = FF4AADD41D2E50DA00C63C8C /* Build configuration list for PBXProject "Thehandofgod" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF4AADD01D2E50DA00C63C8C;
+			productRefGroup = FF4AADDA1D2E50DA00C63C8C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF4AADD81D2E50DA00C63C8C /* Thehandofgod */,
+				FF4AADF11D2E50DA00C63C8C /* ThehandofgodTests */,
+				FF4AADFC1D2E50DA00C63C8C /* ThehandofgodUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF4AADD71D2E50DA00C63C8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF3B8B0C1D30B2EA0027CDF7 /* MQQAssist_DefaultHeadshot@3x.png in Resources */,
+				FF4AADEC1D2E50DA00C63C8C /* LaunchScreen.storyboard in Resources */,
+				FF3B8B0D1D30B2EA0027CDF7 /* MQQAssist_Arrow_Black@3x.png in Resources */,
+				FF3B8B0B1D30B2EA0027CDF7 /* MQQAssist_Arrow_Black@2x.png in Resources */,
+				FF3B8B0A1D30B2EA0027CDF7 /* MQQAssist_DefaultHeadshot@2x.png in Resources */,
+				FF4AADE91D2E50DA00C63C8C /* Assets.xcassets in Resources */,
+				FF4AADE71D2E50DA00C63C8C /* Main.storyboard in Resources */,
+				FF3B8B101D30B80E0027CDF7 /* pub04.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF4AADF01D2E50DA00C63C8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF4AADFB1D2E50DA00C63C8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF4AADD51D2E50DA00C63C8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF4AADE41D2E50DA00C63C8C /* BaseViewController.m in Sources */,
+				FF4AADE11D2E50DA00C63C8C /* AppDelegate.m in Sources */,
+				FFAC4B701D30E41600C7A1A0 /* WKWaitingProgressHUD.m in Sources */,
+				FFAC4B6F1D30E41600C7A1A0 /* WKProgressHUD.m in Sources */,
+				FF4AADDE1D2E50DA00C63C8C /* main.m in Sources */,
+				FFBF52231D3167B500CC9488 /* BFDMarsURLConnection.m in Sources */,
+				FF4AAE151D2E580600C63C8C /* MainViewController.m in Sources */,
+				FF4AAE1C1D2F8FE900C63C8C /* SettingViewController.m in Sources */,
+				FF4AAE1F1D2F900A00C63C8C /* DetailViewController.m in Sources */,
+				FFAC4B6E1D30E41600C7A1A0 /* WKMessageProgressHUD.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF4AADEE1D2E50DA00C63C8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF4AADF71D2E50DA00C63C8C /* ThehandofgodTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF4AADF91D2E50DA00C63C8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF4AAE021D2E50DA00C63C8C /* ThehandofgodUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF4AADF41D2E50DA00C63C8C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF4AADD81D2E50DA00C63C8C /* Thehandofgod */;
+			targetProxy = FF4AADF31D2E50DA00C63C8C /* PBXContainerItemProxy */;
+		};
+		FF4AADFF1D2E50DA00C63C8C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF4AADD81D2E50DA00C63C8C /* Thehandofgod */;
+			targetProxy = FF4AADFE1D2E50DA00C63C8C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FF4AADE51D2E50DA00C63C8C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF4AADE61D2E50DA00C63C8C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FF4AADEA1D2E50DA00C63C8C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF4AADEB1D2E50DA00C63C8C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF4AAE041D2E50DA00C63C8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FF4AAE051D2E50DA00C63C8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF4AAE071D2E50DA00C63C8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/Thehandofgod/lib";
+				INFOPLIST_FILE = Thehandofgod/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Thehandofgod/lib",
+					"$(PROJECT_DIR)/Thehandofgod/GtSdkLib",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.linde.thehandofgod;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "e674447c-0e4d-4e97-b311-497d14147430";
+			};
+			name = Debug;
+		};
+		FF4AAE081D2E50DA00C63C8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/Thehandofgod/lib";
+				INFOPLIST_FILE = Thehandofgod/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Thehandofgod/lib",
+					"$(PROJECT_DIR)/Thehandofgod/GtSdkLib",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.linde.thehandofgod;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "e674447c-0e4d-4e97-b311-497d14147430";
+			};
+			name = Release;
+		};
+		FF4AAE0A1D2E50DA00C63C8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ThehandofgodTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.ThehandofgodTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Thehandofgod.app/Thehandofgod";
+			};
+			name = Debug;
+		};
+		FF4AAE0B1D2E50DA00C63C8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ThehandofgodTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.ThehandofgodTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Thehandofgod.app/Thehandofgod";
+			};
+			name = Release;
+		};
+		FF4AAE0D1D2E50DA00C63C8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ThehandofgodUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.ThehandofgodUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Thehandofgod;
+			};
+			name = Debug;
+		};
+		FF4AAE0E1D2E50DA00C63C8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ThehandofgodUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.ThehandofgodUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Thehandofgod;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF4AADD41D2E50DA00C63C8C /* Build configuration list for PBXProject "Thehandofgod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF4AAE041D2E50DA00C63C8C /* Debug */,
+				FF4AAE051D2E50DA00C63C8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF4AAE061D2E50DA00C63C8C /* Build configuration list for PBXNativeTarget "Thehandofgod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF4AAE071D2E50DA00C63C8C /* Debug */,
+				FF4AAE081D2E50DA00C63C8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF4AAE091D2E50DA00C63C8C /* Build configuration list for PBXNativeTarget "ThehandofgodTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF4AAE0A1D2E50DA00C63C8C /* Debug */,
+				FF4AAE0B1D2E50DA00C63C8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF4AAE0C1D2E50DA00C63C8C /* Build configuration list for PBXNativeTarget "ThehandofgodUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF4AAE0D1D2E50DA00C63C8C /* Debug */,
+				FF4AAE0E1D2E50DA00C63C8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF4AADD11D2E50DA00C63C8C /* Project object */;
+}

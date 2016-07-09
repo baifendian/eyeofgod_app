@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "8C41E592242796F23C8F991F5B3682B6C79696AE",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "8C41E592242796F23C8F991F5B3682B6C79696AE" : 0,
+    "2A0602B6BC555215A6A3813C7677045B4FA30EAC" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "F07CCFE1-D4E7-4D37-979A-D4684185A2F8",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "8C41E592242796F23C8F991F5B3682B6C79696AE" : "Thehandofgod\/",
+    "2A0602B6BC555215A6A3813C7677045B4FA30EAC" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Thehandofgod",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Thehandofgod.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:baifendian\/eyeofgod_app.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2A0602B6BC555215A6A3813C7677045B4FA30EAC"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:baifendian\/eyeofgod_app.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8C41E592242796F23C8F991F5B3682B6C79696AE"
+    }
+  ]
+}
